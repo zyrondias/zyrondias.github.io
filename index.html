@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com -->
-  <title>Zyron Dias </title>
+  <title>Zyron Dias Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -84,7 +84,7 @@
           <li>Expected Graduation in 2020</li>
           <li>First-year mark: 73.2% (First Class Classification) with the highest mark of 94% in Mathematics.</li>
           <li>Currently enrolled in courses including Cyber Security, Artificial Intelligence, Algorithms,
-            Software Engineering, Mathematics, Database Systems, Operating systems and computer networks, Web development, Computer Architecture,Logic and verification and Functional Programming</li>
+            Software Engineering, Mathematics, Database Systems, Operating systems and computer networks, Web development, Computer Architecture, Logic and verification and Functional Programming</li>
           </ul>
           <br>
           <h4><strong>A-Levels</strong></h4>
@@ -113,64 +113,191 @@
     <div id="portfolio" class="container-fluid  bg-grey" style="background-color:#a2d5ac">
       <h2 class="text-center">Projects</h2><br>
       <div id="about" class="container-fluid bg-black">
-        <div class="row">
-          <div class="col-sm-8">
-            <h4>Object retrieval and Enemy avoidance robot</h4>
-              <ul>
-                <li>Engineered a python based AI-powered virtual robot to efficiently solve a maze and retrieve Objects while avoiding enemies.</li>
-                <li> Used an Object Oriented approach to design the robot and to graphically represent the maze as Nodes with different information.
-                </li>
-                <li>Designed the robot to solve the maze using an offline search algorithm such as A* search and retrieve objects using Dijkstra's algorithm</li>
-                <li>Modified the robot to carry out an offline search algorithm depending on different conditions of the maze.</li>
-                <li>Devised several techniques for error handling and efficient debugging.</li>
-              </ul>
-            <br>
-            <h4>Shop Database System:</h4>
-            <ul>
-              <li>Developed a shop database using the Oracle DBMS to include inventory and sales infromation.</li>
-              <li>Wrote a schema for the Database to include several integrity and referential constraints.</li>
-              <li>Driver program written using JDBC.Included several handling techniques to prevent unintentional failure of the program.</li>
-              <li>Additional functionality included complex queries to retrieve staff memebers with the highest sales based on data from several different tables and the highest sold product</li>
-              <li>Made use of nested queries, case statements, joins and pivots to solve complex problems based on the users needs.</li>
-              <li>Ensured Database security using constraints and PreparedStatement Objects to prevent SQL Injections.</li>
-            </ul>
-            <br>
-            <h4>Multithreaded Intrusion Detection System:</h4>
-            <ul>
-              <li>Designed and implemented a basic multi-threaded Intrusion detection system for the main purpose of packet sniffing.</li>
-              <li>Software developed in C programming language</li>
-              <li>Used the libpcap library to receive packets and strip the outer-most layer of the protocol stack.</li>
-              <li>Main features included parsing Ethernet, TCP, IP and ARP headers and detecting Malicious packets including ARP responses, blacklisted URL, and Xmas Tree scans.</li>
-              <li>Designed a multi-threaded "Threadpool" version to ensure the system can handle high data rates.</li>
-            </ul><br>
-            <h4>Expense splitting online web tool:</h4>
-            <ul>
-              <li>Developed an online bill splitting tool for splitting expenses between members or groups.</li>
-              <li>Implemented a secure login and registration system.Used several web security techniques including password hashing, encryption techniques, and general web security techniques to ensure the user and developer safety.</li>
-              <li>Used HTML and CSS for web design and javascript to improve the user experience. Engineered the back-end using SQL, PHP, JQuery, JSON and AJAX for inserting and retrieval of data from the database.</li>
-            </ul><br>
-            <h4>Artificial Intelligence powered, shortest path finding virtual robot:</h4>
-            <ul>
-              <li>Built an AI-enabled robot that finds the shortest path to the target in any maze using Java.</li>
-              <li>Engineered the virtual robot based on the given specification and implemented several testing methods and evaluation techniques.</li>
-              <li>Devised several techniques for error handling efficient debugging.</li>
-              <li>Implemented complex algorithms such as Tremaux's algorithms to solve the maze along with data- structures such as stacks, arrays and array-lists.</li>
-              <li>Using algorithms and data-structures helped me improve upon some problem-solving skills.</li>
-            </ul><br>
-            <h4>Virtual Pong game using micro-controllers and an Oscilloscope(Group Project):</h4>
-            <ul>
-              <li>Programmed a micro-controller (ARM Processor) using C to create the classic pong game.</li>
-              <li>Specification included a moving ball and paddles on an Oscilloscope screen.</li>
-              <li>Set up individual goals for members of the team.</li>
-              <li>Responsible for making the right evaluation and setting up different testing methods for the game. Collaborated on the project using text editor's peer sharing.</li>
-              <li>lead the team through the brainstorming sessions where we came up with ideas to write efficient programs, testing and evaluation techniques.</li>
-            </ul>
+        <div class="row slideanim">
+          <div class="col-sm-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="tex">
+                    <h1>Machine learning powered automatic hiring system</h1>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <ul>
+                    <li>Designed and engineered an automatic hiring system for Deutsche bank, capable of screening applicants, skill testing and decision making whether or not an applicant should be put forward to an in-person interview.</li>
+                    <li>Produced a requirements analysis report and a planning and design document</li>
+                    <li>Carried out the development using agile software development techniques </li>
+                    <li>Implemented the front end and the back end using DJango Framework</li>
+                    <li>Used tensor flow machine learning library to develop a machine learning-based ranking system</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-sm-4">
-            <span class="glyphicon glyphicon-wrench logo slideanim"></span>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="tex">
+                    <h1>Mastermind Game & clone of Scratch Environment in Haskell</h1>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <ul>
+                    <li>Replicated the mastermind game purely using Haskell</li>
+                    <li>Designed several functions to determine all possible valid moves and a scoring algorithm</li>
+                    <li>Implemented Donal Knuth's 5 guess algorithm</li>
+                    <li>Replicated the Scratch environment, A web-based interface which allows users to construct simple programs visually</li>
+                    <li>Designed an evaluator to evaluate such programs in Haskell</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="tex">
+                    <h1>Scientific Code optimisation and data analysis</h1>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <ul>
+                    <li>Used code optimisation techniques such as threading, pipelining, unrolling and loop blocking to optimise scientific code to count the number of stars visible between the given timestamps</li>
+                    <li>Used statistical analysis to determine the most optimal code optimisation technique based on the peak GFLOPS </li>
+                    <li> Produced a report stating the techniques used, the reason behind the optimisation and the overall effect of the optimisation.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <br>
+        <div class="row slideanim">
+        <div class="col-sm-4">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="tex">
+                  <h1>Object retrieval and Enemy avoidance robot</h2>
+                </div>
+              </div>
+              <div class="flip-card-back">
+                <ul>
+                  <li>Engineered a python based AI-powered virtual robot to efficiently solve a maze and retrieve Objects while avoiding enemies.</li>
+                  <li>Used an Object-Oriented approach to design the robot and to graphically represent the maze as Nodes.</li>
+                  <li>Designed the robot to solve the maze using an online search algorithm such as A* search and retrieve objects using Dijkstra's algorithm</li>
+                  <li>Modified the robot to carry out an offline search algorithm depending on different conditions of the maze.</li>
+                  <li>Devised several techniques for error handling and efficient debugging.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="col-sm-4">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <div class="tex">
+                    <h1>Shop Database System</h1>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <ul>
+                    <li>Developed a shop database using the Oracle DBMS to include inventory and sales infromation.</li>
+                    <li>Wrote a schema for the Database to include integrity and referential constraints..</li>
+                    <li>The Driver program written using JDBC.Included several handling techniques to prevent unintentional failure of the program.</li>
+                    <li>Made use of nested queries, case statements, joins and pivots to solve complex problems based on the user's needs.</li>
+                    <li>Ensured Database security using constraints and PreparedStatement Objects to prevent SQL Injections</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <div class="tex">
+                      <h1>Multithreaded Intrusion Detection System</h1>
+                    </div>
+                  </div>
+                  <div class="flip-card-back">
+                    <ul>
+                      <li>Designed and implemented a basic multi-threaded Intrusion detection system in C for the main purpose of packet sniffing.</li>
+                        <li>Used the libpcap library to receive packets and strip the outer-most layer of the protocol stack.</li>
+                        <li>Main features included parsing Ethernet, TCP, IP and ARP headers and detecting Malicious packets including ARP responses, blacklisted URL, and Xmas Tree scans.</li>
+                        <li>Designed a multi-threaded "Threadpool" version to ensure the system can handle high data rates.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+        <br>
+        <div class="row slideanim">
+        <div class="col-sm-4">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div class="tex">
+                        <h1>Expense splitting online web tool</h1>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <ul>
+                        <li>Developed an online bill splitting tool for splitting expenses between members or groups.</li>
+                          <li>Implemented a secure login and registration system.Used several web security techniques including password hashing, encryption techniques, and general web security techniques to ensure the user and developer safety.</li>
+                          <li>Used HTML and CSS for web design and javascript to improve the user experience. Engineered the back-end using SQL, PHP, JQuery, JSON and AJAX for inserting and retrieval of data from the database.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        <div class="col-sm-4">
+                    <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="tex">
+                            <h1>Artificial Intelligence powered, shortest path finding virtual robot</h1>
+                          </div>
+                        </div>
+                        <div class="flip-card-back">
+                          <ul>
+                            <li>Built an AI-enabled robot that finds the shortest path to the target in any maze using Java.</li>
+                            <li>Engineered the virtual robot based on the given specification and implemented several testing methods and evaluation techniques.</li>
+                            <li>Devised several techniques for error handling efficient debugging.</li>
+                            <li>Implemented complex algorithms such as Tremaux's algorithms to solve the maze along with data- structures such as stacks, arrays and array-lists.</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        <div class="col-sm-4">
+                        <div class="flip-card">
+                          <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                              <div class="tex">
+                                <h1>Virtual Pong game using micro-controllers and an Oscilloscope:</h1>
+                              </div>
+                            </div>
+                            <div class="flip-card-back">
+                              <ul>
+                                <li>Programmed a micro-controller (ARM Processor) using C to create the classic pong game.</li>
+                                <li>The Specification included a moving ball and paddles (contolled by variable resistors) on an Oscilloscope screen.</li>
+                                <li>Set up individual goals for members of the team.</li>
+                                <li>Responsible for evaluation and setting up different testing methods for the game.</li>
+                                <li>lead the team through the brainstorming sessions where we came up with ideas to write efficient programs, testing and evaluation techniques.</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
       </div>
+      <br>
+    </div>
 
       <br>
 
@@ -268,15 +395,15 @@
       </div>
       <div class="row">
         <div class="col-sm-8">
-          <h4 class = "white">Student Tutor (Lampton School UK) : March 2017 - May 2017</h4><br>
+          <h4 class = "white">Student Tutor (Lampton School UK): March 2017 - May 2017</h4><br>
           <ul style="color:white">
             <li>Responsible for assisting students with their academics mostly in the field of mathematics.</li>
             <li>Setting up weekly tasks, assessment, and evaluation.</li>
-            <li>Organizing weekly sessions with varied levels of difficulty.</li>
+            <li>Organizing weekly sessions with varying levels of difficulty.</li>
             <li>Held after school sessions for students in the risk of failing or need help with the subject</li>
           </ul>
           <br>
-          <h4 class="white"> Accountant (Bhakti Yoga Institute, UK) : December 2015 - February 2016</h4><br>
+          <h4 class="white"> Accountant (Bhakti Yoga Institute, UK): December 2015 - February 2016</h4><br>
           <ul style="color:white">
             <li>Overall responsibility for creating data tables and entering data</li>
             <li>Responsible for using calculative formulas and formulating graphs.</li>
@@ -299,8 +426,7 @@
           <h4>Apart from spending my time coding and solving real-world problems, I like to spend time doing some extracurricular work to improve and build upon myself as a person and the skills needed to survive in today's ever-changing world
           </h4><br>
           <ul>
-            <li>Great interest in football as I have represented  West London Youth Football Club in the League football tournaments, State of Maharashtra (India) in All India National Football Tournament and my school at an Inter-school level as well as Regional level.</li>
-            <li>Reading business/ entrepreneurial books and biographies</li>
+            <li>Great interest in football as I have represented  West London Youth Football Club in the League football tournaments, State of Maharashtra (India) in All India National Football Tournament and my school at an Inter-school level as well as regional level.</li>
             <li>Reading business/ entrepreneurial books and biographies</li>
             <li>Strong interest in new mobile phone and computer technologies and how they function.</li>
             <li>Participated in various public speaking competitions and debates.</li>
